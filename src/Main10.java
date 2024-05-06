@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main10 {
@@ -11,9 +12,9 @@ public class Main10 {
 
     }
     public static void changeStr(String newStr,String oldStr) {
-         for(int i=0; i<oldStr.length();i++){
-               newStr+= oldStr.charAt(oldStr.length()-1-i);
-         }
+        for(int i=0; i<oldStr.length();i++){
+            newStr+= oldStr.charAt(oldStr.length()-1-i);
+        }
         isPalendrome(newStr, oldStr);
     }
     public static boolean isPalendrome(String newStr, String oldStr) {

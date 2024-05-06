@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Main8 {
     public static void main(String[] args) {
@@ -6,11 +7,11 @@ public class Main8 {
         enteredString(element);
     }
     public static void enteredString(String element){
-         StringBuilder stringBuilder = new StringBuilder();
-         stringBuilder.append(element);
-         String newText = "";
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(element);
+        String newText = "";
         for(int i =0; i<stringBuilder.length();i++){
-           newText+= stringBuilder.charAt(stringBuilder.length()-i-1);
+            newText+= stringBuilder.charAt(stringBuilder.length()-i-1);
         }
         System.out.print( newText);
     }
@@ -20,3 +21,4 @@ public class Main8 {
         return element;
     }
 }
+
