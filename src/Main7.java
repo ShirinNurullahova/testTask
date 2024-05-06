@@ -5,7 +5,6 @@ public class Main7 {
        checkChar(arr);
     }
      public static void checkChar(String[] arr){
-
             Scanner scanner= new Scanner(System.in);
             System.out.print("Char daxil et: ");
             String charEnter = scanner.nextLine();
